@@ -1,0 +1,55 @@
+﻿@charset "UTF-8";
+
+/* -------------|
+/* - CSS RESET
+/* ----- */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+a { outline: none; }
+legend { display: none; }
+ol, ul { list-style: none; }
+a:hover { text-decoration: underline; }
+a:active, button:active { position: relative; top: 1px; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body {
+	font-size: 62.5%;
+	font-family: arial, helvetica, sans-serif;
+	color: #;
+}
+
+header, nav, section,
+article, aside, footer { display: block; }
+
+/* -------------|
+/* - REGRAS GERAIS
+/* ----- */
+
+.center { margin: 0 auto; }
+
+/* Image Replacement */
+
+.image-replace {
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+/* Image Replacement para Inputs */
+
+.input-replace {
+	display: block;
+	content: "";
+	line-height: 0;
+	text-indent: -9999px;
+	cursor: pointer;
+	border: none !important;
+}
